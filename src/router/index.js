@@ -1,9 +1,7 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
 import PageForm1 from '../components/PageForm1.vue';
 import PageForm2 from '../components/PageForm2.vue';
+import { createWebHistory, createRouter } from "vue-router";
 
-Vue.use(VueRouter)
 
 const routes = [
   {
@@ -18,8 +16,11 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({
+const router = new createRouter({
+  history: createWebHistory(),
   routes,
 });
 
 export default router;
+
+
