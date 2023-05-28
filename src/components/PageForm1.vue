@@ -7,12 +7,6 @@
       
       <label for="email">Email:</label>
       <input type="email" id="email" v-model="email" required>
-
-      <label for="number">Number:</label>
-      <input type="email" id="email" v-model="email" required>
-
-        <label for="">Email:</label>
-      <input type="email" id="email" v-model="email" required>
       
       <button type="submit">Next</button>
       
