@@ -6,7 +6,14 @@ import { createStore } from 'vuex'
 export const store = createStore({
   state () {
     return {
-      count: 1
+      name: "",
+      email: ""
+    }
+  },
+  mutations: {
+    setFormData (state, name, email) {
+      state.name = name
+      state.email = email
     }
   }
 })
