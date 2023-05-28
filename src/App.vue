@@ -1,21 +1,14 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <PageForm1/>
-  <PageForm2/>
+  <router-view/>
 </template>
 
 <script>
 
 
-import PageForm1 from './components/PageForm1.vue';
-import PageForm2  from './components/PageForm2.vue';
-
-
 export default {
   name: 'App',
   components: {
-   PageForm1,
-   PageForm2,
   }
 }
 </script>
