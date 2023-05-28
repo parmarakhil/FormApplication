@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PageForm1/>
+  <PageForm2/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+import PageForm1 from './components/PageForm1.vue';
+import PageForm2  from './components/PageForm2.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   PageForm1,
+   PageForm2,
   }
 }
 </script>
