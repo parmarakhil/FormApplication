@@ -10,7 +10,7 @@
 export default {
   computed: {
     formData() {
-      return this.$store.state.formData;
+      return this.$store.state.name;
     },
   },
 };
